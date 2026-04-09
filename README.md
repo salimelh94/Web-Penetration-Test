@@ -8,15 +8,6 @@ Exploiting WordPress vulnerabilities (CVE-2025-34077), authentication bypass via
 
 In this first session of my Cybersecurity journey, I moved away from the myths. I learned that you don't need to be a math genius or an expert programmer to identify security breaches; you need **creativity, logic, and a solid methodology.**
 
----
-
-##  The Opportunity in Crisis
-While documenting this lab, I kept a key fact in mind: cyberattacks cost companies up to 20% of their annual turnover. There is a global gap of 4 million professionals, and I am training to fill that void.
-
-### My Role in the Team:
-During this lab, I acted as part of the **Red Team (Ethical Hacker)**, auditing systems and exploiting vulnerabilities before a real cybercriminal could.
-
----
 
 ##  Step-by-Step: The "BigWear" Compromise
 
