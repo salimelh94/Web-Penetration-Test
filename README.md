@@ -122,13 +122,40 @@ Now I wanted to move from the "reception" to the "engine room" (the server).
   
 
 ### Step 6: The Final Checkmate (Privilege Escalation)
-Inside the server's "guts," I looked for the ultimate prize: Root access.
+
+ ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/ced2bf43bacb44ac6f28500b7c97bbdc5699b1d1/images/step%206%201.png)
+
+Inside the server, I looked for the ultimate prize: Root access.
+
 * **Discovery:** In `/opt/bigwear/backend/settings.py`, I found a critical human error: **Plaintext credentials** (`pepe:BigWear2024!@#`).
-* **Root Access:** I tested those credentials with `su root`. Because of **password reuse**, it worked!
+
+
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/4da693d8250365095cacb344d6e3a7efa7eb01bf/images/step%206.png)
+  
+
+
+   ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/4da693d8250365095cacb344d6e3a7efa7eb01bf/images/step%206%202.png)
+  
+
+  
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/4da693d8250365095cacb344d6e3a7efa7eb01bf/images/step%206%203.png)
+
+
 * **The Loot:** The server was 100% compromised. I accessed the Django admin panel on port 3000, exposing customer database records and credit card details.
 
 
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/4da693d8250365095cacb344d6e3a7efa7eb01bf/images/step%206%204.png)
+
+
   
+* **Root Access:** I tested those credentials with `su root`. Because of **password reuse**, it worked!
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/4da693d8250365095cacb344d6e3a7efa7eb01bf/images/step%206%205.png)
+  
+
+
+
 
 ---
 
