@@ -58,6 +58,10 @@ Once the flaw was identified, I didn't need to guess passwords.
 * **Result:** The system got confused and handed over the **Administrator's session cookies**.
 
   ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%202.png)
+
+
+I exploited CVE-2025-34077 in the Pie Register plugin to bypass authentication on the target WordPress site. By running this script, 
+I successfully hijacked the admin session cookies, allowing me to log in as the administrator without a password. I then automated the process using Metasploit to confirm the vulnerability and gain full control over the web application.
   
 
   ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%203.png)
