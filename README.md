@@ -4,6 +4,8 @@ Exploiting WordPress vulnerabilities (CVE-2025-34077), authentication bypass via
 #  Day 1: Hacking my First Website
 ## Lab Report: Exploiting the "BigWear" Server
 
+ ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/9e59c770bf03ed0d5bf05ecda92ba3617a0982e7/images/1.png) 
+
 In this first session of my Cybersecurity journey, I moved away from the myths. I learned that you don't need to be a math genius or an expert programmer to identify security breaches; you need **creativity, logic, and a solid methodology.**
 
 ---
