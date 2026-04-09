@@ -76,9 +76,12 @@ I successfully hijacked the admin session cookies, allowing me to log in as the 
 
 ### Step 4: Entry without a Password (Cookie Injection)
 * **Action:** Using the browser's developer tools (Storage), I pasted the stolen cookies.
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/842f4d46f62eb661cc78313dc080f3c1b5a82bcb/images/step%205.png)
+  
 * **Result:** Upon refreshing the page, I was logged in as the **Administrator**. I went from a visitor to the site owner without typing a single password!
 
-
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/842f4d46f62eb661cc78313dc080f3c1b5a82bcb/images/step%205%201%20.png)
   
 
 ### Step 5: Creating a Secret Tunnel (Reverse Shell)
