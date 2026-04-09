@@ -48,8 +48,23 @@ I navigated to the lab IP `172.17.0.2` to inspect the site.
 ### Step 3: Stealing the "VIP Wristband" (Exploitation)
 
 Once the flaw was identified, I didn't need to guess passwords.
+
 * **Action:** I used an **exploit** from GitHub to target that specific error.
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203.png)
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%201.png)
+  
 * **Result:** The system got confused and handed over the **Administrator's session cookies**.
+
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%202.png)
+  
+
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%203.png)
+
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/5acc12045bd3ed67f9f869bcd5b7c7105befee3e/images/step%203%204.png)
+
+
 * **Analogy:** A cookie is like a VIP wristband at a club; if you have it, the bouncer (the web) doesn't ask for ID—it just lets you in.
 
 
