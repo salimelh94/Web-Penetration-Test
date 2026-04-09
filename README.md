@@ -102,7 +102,7 @@ Now I wanted to move from the "reception" to the "engine room" (the server).
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-2.png)
   
 * **The "Bingo" Moment:** I used `revshells.com` to generate a malicious PHP code, pasted it into `index.php`, and set up a listener with `Netcat` on port 4444.
-* 
+
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-3.png)
 
