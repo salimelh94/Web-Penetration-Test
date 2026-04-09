@@ -4,7 +4,7 @@ Exploiting WordPress vulnerabilities (CVE-2025-34077), authentication bypass via
 #  Day 1: Hacking my First Website
 ## Lab Report: Exploiting the "BigWear" Server
 
- ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/9e59c770bf03ed0d5bf05ecda92ba3617a0982e7/images/1.png) 
+   ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/9e59c770bf03ed0d5bf05ecda92ba3617a0982e7/images/1.png) 
 
 In this first session of my Cybersecurity journey, I moved away from the myths. I learned that you don't need to be a math genius or an expert programmer to identify security breaches; you need **creativity, logic, and a solid methodology.**
 
@@ -87,6 +87,8 @@ I successfully hijacked the admin session cookies, allowing me to log in as the 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/842f4d46f62eb661cc78313dc080f3c1b5a82bcb/images/step%205%201%20.png)
 
 
+
+
   
 
 ### Step 5: Creating a Secret Tunnel (Reverse Shell)
@@ -100,8 +102,11 @@ Now I wanted to move from the "reception" to the "engine room" (the server).
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-2.png)
   
 * **The "Bingo" Moment:** I used `revshells.com` to generate a malicious PHP code, pasted it into `index.php`, and set up a listener with `Netcat` on port 4444.
+* 
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-3.png)
+
+
 
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-4.png)
@@ -111,6 +116,9 @@ Now I wanted to move from the "reception" to the "engine room" (the server).
 
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-5.png)
+
+
+
   
 
 ### Step 6: The Final Checkmate (Privilege Escalation)
