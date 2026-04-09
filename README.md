@@ -71,10 +71,13 @@ I successfully hijacked the admin session cookies, allowing me to log in as the 
 
 * **Analogy:** A cookie is like a VIP wristband at a club; if you have it, the bouncer (the web) doesn't ask for ID—it just lets you in.
 
+  
+
 
   
 
 ### Step 4: Entry without a Password (Cookie Injection)
+
 * **Action:** Using the browser's developer tools (Storage), I pasted the stolen cookies.
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/842f4d46f62eb661cc78313dc080f3c1b5a82bcb/images/step%205.png)
@@ -82,15 +85,32 @@ I successfully hijacked the admin session cookies, allowing me to log in as the 
 * **Result:** Upon refreshing the page, I was logged in as the **Administrator**. I went from a visitor to the site owner without typing a single password!
 
 ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/842f4d46f62eb661cc78313dc080f3c1b5a82bcb/images/step%205%201%20.png)
+
+
   
 
 ### Step 5: Creating a Secret Tunnel (Reverse Shell)
+
 Now I wanted to move from the "reception" to the "engine room" (the server).
+
 * **Action:** I installed the **WP File Manager** plugin to access all site files.
+  
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-1.png)
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-2.png)
+  
 * **The "Bingo" Moment:** I used `revshells.com` to generate a malicious PHP code, pasted it into `index.php`, and set up a listener with `Netcat` on port 4444.
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-3.png)
+
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-4.png)
+  
+  
 * **Result:** The server connected to my machine, giving me a **Reverse Shell** console to control it.
 
 
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/c86aa83b9b86651e945d7925637d8dec00999ba8/images/5-5.png)
   
 
 ### Step 6: The Final Checkmate (Privilege Escalation)
