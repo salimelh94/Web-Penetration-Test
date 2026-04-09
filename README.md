@@ -25,11 +25,23 @@ I started by identifying entry points.
   
 
 ### Step 2: Finding a Faulty Lock (Enumeration & CVE)
+
 I navigated to the lab IP `172.17.0.2` to inspect the site.
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/acd6fb5a6710f257507b315c82f155f09dbef4fb/images/step%202.png)
+
 * **Action:** I used `WPScan` to act as an inspector and list installed plugins.
+
+![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/acd6fb5a6710f257507b315c82f155f09dbef4fb/images/step%202-1.png)
+
 * **Discovery:** I found a plugin called **Pie Register (v3.7.1.4)**.
+
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/acd6fb5a6710f257507b315c82f155f09dbef4fb/images/step%202%20%203.png)
+
+  
 * **Research:** I searched Google and found a public security flaw: **CVE-2025-34077**. A CVE is like a "faulty factory part" ID for software.
 
+  ![images alt](https://github.com/salimelh94/Web-Penetration-Test/blob/acd6fb5a6710f257507b315c82f155f09dbef4fb/images/step%202%205.png)
 
   
 
